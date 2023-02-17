@@ -93,4 +93,3 @@ def place_revies_put(review_id):
             setattr(placeR, k, v)
     placeR.save()
     return jsonify(placeR.to_dict())
-

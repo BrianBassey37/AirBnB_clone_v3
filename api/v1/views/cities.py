@@ -79,4 +79,3 @@ def city_put(city_id):
             setattr(city, k, v)
     city.save()
     return jsonify(city.to_dict()), 200
-

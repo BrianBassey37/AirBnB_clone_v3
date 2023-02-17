@@ -140,4 +140,3 @@ def post_places_search():
         return jsonify(filter_list)
     else:
         return jsonify([p.to_dict() for p in place_list])
-

@@ -72,4 +72,3 @@ def user_put(user_id):
             setattr(user, k, v)
     user.save()
     return make_response(jsonify(user.to_dict()), 200)
-
